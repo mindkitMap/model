@@ -1,0 +1,10 @@
+functions:
+  - name: TopicEdit
+    resource: Topic
+    extend: functions/continuousEdit
+    parameters:
+      id: default
+  - name: continuousEdit
+    abstract: true
+    annotations:
+      implementation: provided/continuousEdit

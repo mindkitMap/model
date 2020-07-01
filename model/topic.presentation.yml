@@ -1,0 +1,5 @@
+presentations:
+  - name: topicEdit
+    propertyRules:
+      - property: json
+        rules: ['resolve:view/treeFieldEdit']

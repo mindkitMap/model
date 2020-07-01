@@ -1,0 +1,7 @@
+pages:
+  - name: topicEditPage
+    menuPath: Topic
+    icon: AccountTree
+    places:
+      - function: TopicEdit
+        presentation: topicEdit

@@ -1,0 +1,29 @@
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/quickqui/prototype/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@quick-qui/implementation-model": "^1.0.0",
+    "@quick-qui/model-defines": "^2.4.5",
+    "@quick-qui/models": "^1.1.0",
+    "@types/react": "^16.9.41",
+    "react": "^16.13.1",
+    "react-admin": "^2.9.9"
+  },
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/quickqui/prototype#readme",
+  "license": "MIT",
+  "main": ".",
+  "name": "mkweb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quickqui/prototype.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}

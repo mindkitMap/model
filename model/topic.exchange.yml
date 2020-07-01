@@ -1,0 +1,8 @@
+exchanges:
+  - name: TopicFake
+    resources: [Topic]
+    from: "fake"
+    to: "back"
+    protocol: "dp"
+    parameters:
+      fakeData: "resolve:nodesFake.yml"

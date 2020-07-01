@@ -1,0 +1,21 @@
+implementations:
+  - name: dev-quick-back
+    extend: "implementations/back-raw"
+    env:
+      PORT: 4001
+  - name: dev-quick-web-front
+    env:
+      PORT: 3001
+      APP_SERVER_URL: http://localhost:4001
+    extend: "implementations/web-front-raw"
+  - name: dev-raw-launcher
+    runtime: launcher
+    env:
+      MODEL_PATH: "../../MindKit/mkweb"
+      MODEL_URL: "http://localhost:1111"
+    parameters:
+      launch: [dev-quick-back, dev-quick-web-front]
+      type: raw
+      model_server_path: 'model-server'
+      quickqui_base: '../../QuickQui'
+    

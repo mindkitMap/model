@@ -1,0 +1,5 @@
+entities:
+  - name: Topic
+    properties:
+      - name: title
+        type: string
